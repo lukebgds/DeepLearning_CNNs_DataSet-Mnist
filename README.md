@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este repositório contém um notebook extensivo que aborda de forma minuciosa o processo de **criação, treinamento e avaliação** de um modelo de rede neural convolucional (CNN) utilizando o conjunto de dados **Fashion MNIST**. **Todas as explicações, detalhes e resumos mais completos sobre o código e suas etapas, estão incluídas no notebook**, escritas de forma clara e estruturada após cada célula de código correspondente. Abaixo, você encontrará apenas uma visão geral das principais etapas, apresentada de maneira resumida:
+Este repositório contém um notebook extensivo que aborda de forma minuciosa o processo de **criação, treinamento e avaliação** de um modelo de rede neural convolucional (CNN) utilizando o conjunto de dados **MNIST**. **Todas as explicações, detalhes e resumos mais completos sobre o código e suas etapas, estão incluídas no notebook**, escritas de forma clara e estruturada após cada célula de código correspondente. Abaixo, você encontrará apenas uma visão geral das principais etapas, apresentada de maneira resumida:
 
 ##  Imports
 Os pacotes e bibliotecas necessários são importados, incluindo TensorFlow/Keras, NumPy, Pandas e Matplotlib.
