@@ -51,7 +51,9 @@ O modelo treinado é salvo em um arquivo ***`.keras`*** para reutilização futu
 
 ## Conclusão
 
-Este resumo fornece uma visão geral das etapas presentes no notebook. O foco principal é a criação e o treinamento de um modelo CNN para a classificação do conjunto de dados MNIST, abordando preprocessamento, avaliação de desempenho e salvamento do modelo. ***Para explicações detalhadas e um entendimento mais aprofundado sobre CNNs, consulte o código no notebook, onde todas as informações são apresentadas de forma clara e completa.***
+Este resumo fornece uma visão geral das etapas presentes no notebook. O foco principal é a criação e o treinamento de um modelo CNN para a classificação do conjunto de dados MNIST, abordando preprocessamento, avaliação de desempenho e salvamento do modelo. 
+
+***Para explicações detalhadas e um entendimento mais aprofundado sobre CNNs, consulte o código no notebook, onde todas as informações são apresentadas de forma clara e completa.***
 
 ## Autor
 
