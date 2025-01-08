@@ -1,4 +1,4 @@
-# DeepLearning_CNNs_Fashion-Mnist
+# DeepLearning_CNNs_DataSet-Mnist
 
 ## Introdução
 
@@ -7,7 +7,7 @@ Este repositório contém um notebook extensivo que aborda de forma minuciosa o 
 ##  Imports
 Os pacotes e bibliotecas necessários são importados, incluindo TensorFlow/Keras, NumPy, Pandas e Matplotlib.
 
-## 0. Carregar e Preprocessar o Conjunto de Dados Fashion MNIST
+## 0. Carregar e Preprocessar o Conjunto de Dados MNIST
 O conjunto de dados Fashion MNIST é carregado e preprocessado, preparando as imagens e rótulos para serem usados no treinamento e avaliação do modelo.
 
 ## 1. Tratar as Imagens
@@ -21,25 +21,17 @@ Os rótulos são convertidos para uma representação one-hot, o que é necessá
 
 - **`Observação:`** A etapa de **Converter Rótulos para One-hot Encoding** é **`opcional`** se a função de perda for **sparse_categorical_crossentropy**, que aceita rótulos diretamente como números inteiros.
 
-## 2. Validação Cruzada (Cross Validation)
-Implementação e configuração da validação cruzada para treinar e avaliar o modelo de forma robusta, assegurando que seu desempenho seja testado em diferentes subconjuntos dos dados.
 
-### `2.1 Configurar KFold`
-O KFold é configurado para dividir o conjunto de dados em múltiplos **"folds"** para treinamento e validação.
-
-### `2.2 Iterar sobre Cada Fold`
-Parte do processo para aplicação da validação cruzada, onde são gerados índices com o propósito de dividir os dados em conjuntos de treinamento e validação, preparando-os de maneira estruturada para o treinamento do modelo em diferentes subconjuntos(folds).
-
-## 3. Definir a Arquitetura do Modelo
+## 2. Definir a Arquitetura do Modelo
 Definição e construção da arquitetura do modelo neural convolucional (CNN). Esta etapa envolve a seleção e configuração das camadas, e a sua organização para otimizar o processamento e análise dos dados. O objetivo é criar uma estrutura eficaz que permita ao modelo extrair características relevantes e realizar a tarefa desejada com precisão.
 
-### `3.1 Exibir Resumo da Arquitetura`
+### `2.1 Exibir Resumo da Arquitetura`
 O resumo da arquitetura do modelo é exibido para verificar a estrutura da rede.
 
-## 4. Compilar o Modelo
+## 3. Compilar o Modelo
 O modelo é compilado definindo a função de perda, o otimizador e as métricas a serem monitoradas durante o treinamento. Isso configura o modelo para o processo de ajuste dos parâmetros durante o treinamento.
 
-## 5. Treinar o Modelo
+## 4. Treinar o Modelo
 O modelo é treinado com os dados processados, ajustando seus parâmetros ao longo de várias épocas para minimizar a função de perda. Após o treinamento, o desempenho é avaliado com o conjunto de validação e o modelo é testado com o conjunto de teste para verificar sua capacidade de generalização.
 
 ### `5.1 Resumo da Arquitetura após Compilar e Treinar`
@@ -59,7 +51,7 @@ O modelo treinado é salvo em um arquivo ***`.keras`*** para reutilização futu
 
 ## Conclusão
 
-Este resumo fornece uma visão geral das etapas presentes no notebook. O foco principal é a criação e o treinamento de um modelo CNN para a classificação do conjunto de dados Fashion MNIST, abordando preprocessamento, validação cruzada, avaliação de desempenho e salvamento do modelo. ***Para explicações detalhadas e um entendimento mais aprofundado sobre CNNs, consulte o código no notebook, onde todas as informações são apresentadas de forma clara e completa.***
+Este resumo fornece uma visão geral das etapas presentes no notebook. O foco principal é a criação e o treinamento de um modelo CNN para a classificação do conjunto de dados MNIST, abordando preprocessamento, avaliação de desempenho e salvamento do modelo. ***Para explicações detalhadas e um entendimento mais aprofundado sobre CNNs, consulte o código no notebook, onde todas as informações são apresentadas de forma clara e completa.***
 
 ## Autor
 
