@@ -55,7 +55,9 @@ Este resumo fornece uma visão geral das etapas presentes no notebook. O foco pr
 
 ***Para explicações detalhadas e um entendimento mais aprofundado sobre CNNs, consulte o código no notebook, onde todas as informações são apresentadas de forma clara e completa.***
 
-## Autor
+---
+
+### Autor
 
 **Lucas Benício Gusmão da Silva**
 
